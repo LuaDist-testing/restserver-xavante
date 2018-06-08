@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "restserver-xavante"
-version = "0.1-1"
+version = "0.2-1"
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/restserver-xavante.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/hishamhm/restserver",
---    tag = "v0.1",
+--    tag = "v0.2",
 -- }
 description = {
    summary = "A Xavante plugin for RestServer.",
@@ -24,7 +24,7 @@ description = {
 dependencies = {
    "xavante",
    "wsapi-xavante",
-   "restserver",
+   "restserver >= 0.1",
 }
 build = {
    type = "builtin",

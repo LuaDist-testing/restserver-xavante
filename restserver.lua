@@ -25,7 +25,6 @@ local function add_resource(self, name, entries)
    end
 end
 
-
 local function type_check(tbl, schema)
    for k, s in pairs(schema) do
       if not tbl[k] and not s.optional then
